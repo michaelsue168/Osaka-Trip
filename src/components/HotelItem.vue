@@ -71,7 +71,7 @@ defineProps({
   /* 水平居中 */
   align-items: center !important;
   /* 垂直居中 */
-  height: 300px;
+  height: 350px;
   /* 根据你的需求调整高度 */
   width: 100% !important;
   /* 确保项的宽度是 100% */

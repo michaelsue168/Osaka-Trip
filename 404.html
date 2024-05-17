@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Page Not Found</title>
+    <script type="text/javascript">
+        // Redirect all 404 requests to the index.html file
+        var path = window.location.pathname;
+        var query = window.location.search;
+        var hash = window.location.hash;
+        window.location.replace('/your-repo-name?' + 'redirect=' + encodeURIComponent(path + query + hash));
+    </script>
+</head>
+
+<body>
+    <h1>404 Not Found</h1>
+    <p>Redirecting...</p>
+</body>
+
+</html>

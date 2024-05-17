@@ -17,8 +17,8 @@ const currentHotel = computed(() => {
       <template #HotelName>{{ currentHotel.name }}</template>
       <template #tag>
         <a-tag v-for="(item, index) in currentHotel.tag" :key="index" :color="item.color">{{
-      item.name
-    }}</a-tag>
+          item.name
+        }}</a-tag>
       </template>
       <template #info>{{ currentHotel.info }}</template>
       <template #good>
@@ -35,3 +35,18 @@ const currentHotel = computed(() => {
     </HotelItem>
   </main>
 </template>
+
+<style scoped>
+ul,
+ol {
+  padding-left: 0;
+  /* 移除內縮 */
+  list-style-position: inside;
+  /* 使列表項目標號在內部 */
+}
+
+li {
+  margin-left: 0;
+  /* 移除左邊距 */
+}
+</style>

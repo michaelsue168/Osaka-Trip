@@ -7,7 +7,7 @@ import { hotels } from './components/HotelsList'
 <template>
   <nav>
     <router-link v-for="hotel in hotels" :key="hotel.id" :to="`/hotel/${hotel.id}`">
-      {{ hotel.name }}
+      {{ hotel.id }}
     </router-link>
   </nav>
   <!-- <header> -->

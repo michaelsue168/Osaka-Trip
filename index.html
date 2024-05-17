@@ -1,14 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <link rel="icon" href="/Osaka-Trip/favicon.ico">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vite App</title>
-    <script type="module" crossorigin src="/Osaka-Trip/assets/index-B58l2yMf.js"></script>
-    <link rel="stylesheet" crossorigin href="/Osaka-Trip/assets/index-CrVv1l1T.css">
-  </head>
-  <body>
-    <div id="app"></div>
-  </body>
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" href="/Osaka-Trip/favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vite App</title>
+  <script type="module" crossorigin src="/Osaka-Trip/assets/index-DeBUXIKw.js"></script>
+  <link rel="stylesheet" crossorigin href="/Osaka-Trip/assets/index-D92f5NuJ.css">
+</head>
+
+<body>
+  <div id="app"></div>
+  <script>
+    if (window.location.search.includes('redirect')) {
+      const redirectUrl = new URLSearchParams(window.location.search).get('redirect');
+      window.history.replaceState(null, null, redirectUrl);
+    }
+  </script>
+
+</body>
+
 </html>

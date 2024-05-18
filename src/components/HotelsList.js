@@ -189,8 +189,14 @@ export const hotels = [
     ],
     name: 'Best Western Plus Hotel Fino Osaka Kitahama',
     info: '',
-    good: [''],
-    bad: [''],
+    good: [
+      '地點方便',
+      '離北濱站走路不用三分鐘',
+      '房間夠大可以攤開行李箱',
+      '免費寄放行李',
+      '隔音不錯'
+    ],
+    bad: ['(幾乎無負評)'],
     link: 'https://maps.app.goo.gl/S4LzezddSDuLTjMGA',
     tag: [
       { name: '$ 3,441', color: 'gold' },
@@ -689,6 +695,120 @@ export const hotels = [
       { name: '近烏丸御池站', color: 'blue' },
       { name: '客房(兩床+加床)', color: 'gray' },
       { name: '23平方公尺', color: 'gray' },
+      { name: '京都', color: 'gray' },
+      { name: 'Agoda', color: 'gray' }
+    ]
+  },
+  {
+    id: 14,
+    img: [
+      {
+        id: 1,
+        src: 'https://pix8.agoda.net/hotelImages/10289772/-1/31b87f709403773838e7312f2939f02d.jpg?ca=13&ce=1&s=1024x'
+      },
+      {
+        id: 2,
+        src: 'https://pix8.agoda.net/hotelImages/10289772/-1/fb1afb12f6f73827f5b69aef61c434f8.jpg?ca=13&ce=1&s=1024x'
+      },
+      {
+        id: 3,
+        src: 'https://q-xx.bstatic.com/xdata/images/hotel/max500/237056351.jpg?k=01bc10898a919073466d4303b2089e6f6ec0e717255af1dd9ad9f9f294c3d777&o=&s=1024x'
+      },
+      {
+        id: 4,
+        src: 'https://pix8.agoda.net/hotelImages/10289772/-1/e8de58e9359ef04c05febcc11ed7432d.jpg?ca=13&ce=1&s=1024x'
+      },
+      {
+        id: 5,
+        src: 'https://pix8.agoda.net/hotelImages/10289772/-1/98b7616437a10a6bb36fc12c543c4fef.jpg?ca=13&ce=1&s=1024x'
+      },
+      {
+        id: 6,
+        src: 'https://q-xx.bstatic.com/xdata/images/hotel/max500/331496607.jpg?k=00fd0a2f074e40f597ee1f0bfa79c08da7bce99adc774d88ec72fd3b7a5f6bdd&o=&s=1024x'
+      },
+      {
+        id: 7,
+        src: 'https://pix8.agoda.net/hotelImages/10289772/-1/d9866657f5158f5a9442e22a839d312d.jpg?ca=13&ce=1&s=1024x'
+      },
+      {
+        id: 8,
+        src: 'https://pix8.agoda.net/hotelImages/10289772/-1/107fe253ba764d17fd3e836360f88642.jpg?ca=13&ce=1&s=1024x'
+      },
+      {
+        id: 9,
+        src: 'https://pix8.agoda.net/hotelImages/10289772/-1/a1e218848fc91df17558dfbd02a63b1d.jpg?ca=13&ce=1&s=375x'
+      },
+      {
+        id: 10,
+        src: 'https://pix8.agoda.net/hotelImages/10289772/-1/36684b3cae9b3476cb972f40379e7c39.jpg?ca=9&ce=1&s=375x'
+      }
+    ],
+    name: "三條Wakoku M's飯店 (M’s Hotel Sanjo Wakoku)",
+    info: '',
+    good: ['房間算大', '位置好', '步行可以到很多景點', '乾淨'],
+    bad: ['無人飯店 自助入住', '似乎連續住的話3天打掃一次房間', '客房沒給水喝'],
+    link: 'https://maps.app.goo.gl/aMenZHhuDD53DwtMA',
+    tag: [
+      { name: '$ 3,998', color: 'gold' },
+      { name: 'T 東西線', color: 'red' },
+      { name: '近三條京阪站', color: 'blue' },
+      { name: '雙人房', color: 'gray' },
+      { name: '14平方公尺', color: 'gray' },
+      { name: '京都', color: 'gray' },
+      { name: 'Agoda', color: 'gray' }
+    ]
+  },
+  {
+    id: 15,
+    img: [
+      {
+        id: 1,
+        src: 'https://pix8.agoda.net/hotelImages/21791135/-1/cfec7872ed82beaf340f0d6fcda40e15.jpg?ca=21&ce=0&s=1024x'
+      },
+      {
+        id: 2,
+        src: 'https://pix8.agoda.net/hotelImages/21791135/-1/c8d09cc1379e7ce60de3c890ca461294.jpg?ca=21&ce=0&s=1024x'
+      },
+      {
+        id: 3,
+        src: 'https://q-xx.bstatic.com/xdata/images/hotel/max500/293846548.jpg?k=70e778be1d0e2ebee226e403591b8d42380d2a2ec63717b552ad68b84ecf19eb&o=&s=1024x'
+      },
+      {
+        id: 4,
+        src: 'https://pix8.agoda.net/hotelImages/21791135/-1/5f3c1dc23e24a767d0ef1fdccca69090.jpg?ca=18&ce=1&s=1024x'
+      },
+      {
+        id: 5,
+        src: 'https://pix8.agoda.net/hotelImages/21791135/-1/c9457161d150e640d31e523c56b0dc68.jpg?ca=21&ce=0&s=1024x'
+      },
+      {
+        id: 6,
+        src: 'https://pix8.agoda.net/hotelImages/21791135/-1/223aefcf458bd7b9e7fc839591886f69.jpg?ca=20&ce=1&s=1024x'
+      },
+      {
+        id: 7,
+        src: 'https://pix8.agoda.net/property/38472306/800601723/0170c5779054c0c5baa3be5aff47e725.jpeg?ce=0&s=1024x'
+      },
+      {
+        id: 8,
+        src: 'https://pix8.agoda.net/hotelImages/21791135/-1/0276798871aa7ead367b231221748eff.jpg?ca=21&ce=0&s=375x'
+      },
+      {
+        id: 9,
+        src: 'https://pix8.agoda.net/hotelImages/21791135/-1/dd35d9113732b45c29353f548056c176.jpg?ca=21&ce=0&s=375x'
+      }
+    ],
+    name: "帕貢M's飯店 (Hotel Pagong with M's)",
+    info: '',
+    good: ['地理位置十分方便', '隔音', '有公車站可以搭到錦市場、清水寺', '每日清潔乾淨有兩瓶水'],
+    bad: ['(幾乎無負評)'],
+    link: 'https://maps.app.goo.gl/TgK637dKpaUZGxQB9',
+    tag: [
+      { name: '$ 3,965', color: 'gold' },
+      { name: 'HK 阪急京都線', color: 'green' },
+      { name: '近大宮站', color: 'blue' },
+      { name: '雙人房', color: 'gray' },
+      { name: '14平方公尺', color: 'gray' },
       { name: '京都', color: 'gray' },
       { name: 'Agoda', color: 'gray' }
     ]
